@@ -32,7 +32,7 @@ body {
 .box {
   width: 33.33%;
   height: 100%;
-  background-color: gray;
+  background-color: blue;
   color: white;
   display: inline-block;
   vertical-align: top;
@@ -44,30 +44,157 @@ body {
 }
 
 .box-1 {
-  background-color: #333;
+  background-color: #438c4f;
   text-align: center;
 }
 
 .box-2 {
-  background-color: #777;
+  background-color: #f6fbf7;
   text-align: center;
 }
 
 .box-3 {
-  background-color: #777;
+  background-color: #ad100e;
   text-align: center;
 }
 
 .row {
   font-size: 36px;
-  height: 50%;
+  height: 33.33%;
  }
 
  .row-1 {
-  background-color: #c77a2e;
+  background-color: #69438d
  }
 
  .row-2 {
-  background-color: #c75721;
+  background-color: #2f9cef;
+}
 
+ .row-3 {
+  background-color: #fcc503;
  }
+
+ 
+ /*small*/
+@media only screen and (min-width: 600px) {
+  .box {
+    width: 33.33%;
+  }
+  .box-3 {
+    width: 33.33%;
+    height: 50vh;
+  }
+}
+
+.row {
+  font-size: 12px;
+  line-height: 1.2;
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .box {
+    width: 33.33%;
+    height: 50vh;
+  }
+
+  .box-1 {
+    width: 33.33%
+    height:50vh;
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  .box-2 {
+    width: 33.33%
+    height:50vh;
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  .row {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  .box-3 { 
+    height: 100vh;
+    font-size: 18px;
+    line-height: 1.4;
+  }
+}
+
+/* Large devices (laptops/desktops, 1025px and up) */
+@media only screen and (min-width: 1025px) {
+  .box {
+    width: 33.33%
+    height 50vh;
+    font-size: 24px;
+    line-height: 1.4;
+  }
+
+  .box-1 {
+    width: 33.33%
+    height: 50vh;
+    font-size: 24px;
+    line-height: 1.4;
+  }
+
+  .box-2 {
+    width: 33.33%
+    height: 50vh;
+    font-size: 24px;
+    line-height: 1.4;
+
+  }
+
+  .box-3 {
+    width: 33.33%
+    height: 50vh;
+    font-size: 24px;
+    line-height: 1.4;
+  }
+
+  .row {
+    font-size: 24px
+    line-height:1.4;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1400px and up) */
+@media only screen and (min-width: 1400px) {
+  .box {
+    width: 33.33%
+    height 50vh;
+    font-size: 26px;
+    line-height: 1.6;
+  }
+
+  .box-1 {
+    width: 33.33%
+    height: 50vh;
+    font-size: 26px;
+    line-height: 1.6;
+  }
+
+  .box-2 {
+    width: 33.33%
+    height: 50vh;
+    font-size: 26px;
+    line-height: 1.6;
+
+  }
+
+  .box-3 {
+    width: 33.33%
+    height: 50vh;
+    font-size: 26px;
+    line-height: 1.6;
+  }
+
+  .row {
+    font-size: 26px
+    line-height: 1.6;
+  }
+}
+
